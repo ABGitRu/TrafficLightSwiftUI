@@ -11,6 +11,9 @@
 		04D235BA266679F200A036FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D235B9266679F200A036FA /* ContentView.swift */; };
 		04D235BC266679F700A036FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D235BB266679F700A036FA /* Assets.xcassets */; };
 		04D235BF266679F700A036FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D235BE266679F700A036FA /* Preview Assets.xcassets */; };
+		04D235C826667A4E00A036FA /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D235C726667A4E00A036FA /* ColorCircle.swift */; };
+		04D235CB2666804A00A036FA /* LightChangeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D235CA2666804A00A036FA /* LightChangeButton.swift */; };
+		04D235CE266688B900A036FA /* SignalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D235CD266688B900A036FA /* SignalService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		04D235BB266679F700A036FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D235BE266679F700A036FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04D235C0266679F700A036FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D235C726667A4E00A036FA /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
+		04D235CA2666804A00A036FA /* LightChangeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightChangeButton.swift; sourceTree = "<group>"; };
+		04D235CD266688B900A036FA /* SignalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,11 @@
 			children = (
 				04D235B7266679F200A036FA /* TrafficLightSwiftUIApp.swift */,
 				04D235B9266679F200A036FA /* ContentView.swift */,
+				04D235CA2666804A00A036FA /* LightChangeButton.swift */,
+				04D235C726667A4E00A036FA /* ColorCircle.swift */,
 				04D235BB266679F700A036FA /* Assets.xcassets */,
 				04D235C0266679F700A036FA /* Info.plist */,
+				04D235D026669FBB00A036FA /* NotUsed */,
 				04D235BD266679F700A036FA /* Preview Content */,
 			);
 			path = TrafficLightSwiftUI;
@@ -67,6 +76,14 @@
 				04D235BE266679F700A036FA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04D235D026669FBB00A036FA /* NotUsed */ = {
+			isa = PBXGroup;
+			children = (
+				04D235CD266688B900A036FA /* SignalService.swift */,
+			);
+			path = NotUsed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D235CB2666804A00A036FA /* LightChangeButton.swift in Sources */,
 				04D235BA266679F200A036FA /* ContentView.swift in Sources */,
 				04D235B8266679F200A036FA /* TrafficLightSwiftUIApp.swift in Sources */,
+				04D235C826667A4E00A036FA /* ColorCircle.swift in Sources */,
+				04D235CE266688B900A036FA /* SignalService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
